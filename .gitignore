@@ -1,0 +1,6 @@
+# Project exclude paths
+/easy_consumer/target/
+/easy_producer/target/
+/work_consumer/target/
+/work_consumer2/target/
+/work_producer/target/
