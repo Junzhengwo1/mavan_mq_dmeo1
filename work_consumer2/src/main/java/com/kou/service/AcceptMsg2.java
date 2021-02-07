@@ -9,7 +9,7 @@ import java.util.concurrent.TimeoutException;
 /**
  * @author JIAJUN KOU
  */
-public class AcceptMsg {
+public class AcceptMsg2 {
 
     public static void main(String[] args) throws IOException, TimeoutException {
         Connection connection = MqConnectionUtil.getConnection();
@@ -20,9 +20,9 @@ public class AcceptMsg {
             public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
                 //body就是从队列中获取得数据
                 String msg=new String(body);
-                System.out.println("接受1："+msg);
+                System.out.println("接受者2："+msg);
             }
         };
-        channel.basicConsume("queue2",true,consumer);
+        channel.basicConsume("queue6",true,consumer);
     }
 }

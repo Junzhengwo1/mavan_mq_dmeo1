@@ -14,6 +14,8 @@
       <module>work_producer</module>
     <module>work_consumer</module>
     <module>work_consumer2</module>
+      <module>subscribe_producer</module>
+    <module>route_producer</module>
   </modules>
 
 

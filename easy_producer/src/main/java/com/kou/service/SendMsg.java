@@ -10,6 +10,8 @@ import java.util.concurrent.TimeoutException;
 /**
  * @author JIAJUN KOU
  *
+ * 我的rabbit账号为yeb 密码admin123
+ *
  * 实现功能发送消息到消息队列
  */
 public class SendMsg {
